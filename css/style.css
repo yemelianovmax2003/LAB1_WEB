@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*start reset.css*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*end reset.css*/
+/*My code start*/
+.container {
+  margin: 0 auto;
+  width: 1230px;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.test {
+  background: grey;
+  height: 100vh;
+}
+
+.test__content-title h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  padding:  20px;
+}
+
+.test__user-form {
+  display: flex;
+  justify-content: center;
+
+}
+
+.test__user-form__username {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 40px;
+}
+
+.test__user-form__checkbox {
+  display: inline-block;
+  margin: 20px auto;
+}
+.test__user-form__checkbox {
+  display: inline-block;
+  margin: 20px auto;
+
+}
+.test__user-form label{
+  margin:0 20px 0 4px;
+}
+
+
+.test__user-form__textarea {
+  width: 250px;
+  height: 250px;
+  resize: none;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.test__user-form__button {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  color:black;
+  width: 250px;
+}
